@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 double Power(double number, int n)
@@ -17,11 +17,11 @@ void main()
 	setlocale(LC_ALL, "");
 	double number;
 	int n;
-	cout << "Ââåäèòå ÷èñëî äëÿ âîçâåäåíèÿ åãî â ñòåïåíü: "; cin >> number;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð´Ð»Ñ Ð²Ð¾Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ñ ÐµÐ³Ð¾ Ð² ÑÑ‚ÐµÐ¿ÐµÐ½ÑŒ: "; cin >> number;
 	cout << endl;
-	cout << "Ââåäèòå ïîêàçàòåëü ñòåïåíè äëÿ ÷èñëà " << number << " : "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð¾ÐºÐ°Ð·Ð°Ñ‚ÐµÐ»ÑŒ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸ Ð´Ð»Ñ Ñ‡Ð¸ÑÐ»Ð° " << number << " : "; cin >> n;
 	cout << endl;
-	cout << "×èñëî " << number << " â ñòåïåíè " << n << " ðàâíî: " << Power(number, n) << endl << endl;
+	cout << "Ð§Ð¸ÑÐ»Ð¾ " << number << " Ð² ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸ " << n << " Ñ€Ð°Ð²Ð½Ð¾: " << Power(number, n) << endl << endl;
 		
 }
 
